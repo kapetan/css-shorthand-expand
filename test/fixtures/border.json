@@ -1,0 +1,78 @@
+{
+	"1px": {
+		"border-top-width": "1px",
+		"border-right-width": "1px",
+		"border-bottom-width": "1px",
+		"border-left-width": "1px"
+	},
+	"solid": {
+		"border-top-style": "solid",
+		"border-right-style": "solid",
+		"border-bottom-style": "solid",
+		"border-left-style": "solid"
+	},
+	"#ff0": {
+		"border-top-color": "#ff0",
+		"border-right-color": "#ff0",
+		"border-bottom-color": "#ff0",
+		"border-left-color": "#ff0"
+	},
+	"dashed 1em": {
+		"border-top-style": "dashed",
+		"border-right-style": "dashed",
+		"border-bottom-style": "dashed",
+		"border-left-style": "dashed",
+		"border-top-width": "1em",
+		"border-right-width": "1em",
+		"border-bottom-width": "1em",
+		"border-left-width": "1em"
+	},
+	"rgb(0, 0, 0) dashed": {
+		"border-top-color": "rgb(0,0,0)",
+		"border-right-color": "rgb(0,0,0)",
+		"border-bottom-color": "rgb(0,0,0)",
+		"border-left-color": "rgb(0,0,0)",
+		"border-top-style": "dashed",
+		"border-right-style": "dashed",
+		"border-bottom-style": "dashed",
+		"border-left-style": "dashed"
+	},
+	"1em rgb(0, 0, 0)": {
+		"border-top-width": "1em",
+		"border-right-width": "1em",
+		"border-bottom-width": "1em",
+		"border-left-width": "1em",
+		"border-top-color": "rgb(0,0,0)",
+		"border-right-color": "rgb(0,0,0)",
+		"border-bottom-color": "rgb(0,0,0)",
+		"border-left-color": "rgb(0,0,0)"
+	},
+	"thin dotted hsl(120, 100%, 50%)": {
+		"border-top-width": "thin",
+		"border-right-width": "thin",
+		"border-bottom-width": "thin",
+		"border-left-width": "thin",
+		"border-top-style": "dotted",
+		"border-right-style": "dotted",
+		"border-bottom-style": "dotted",
+		"border-left-style": "dotted",
+		"border-top-color": "hsl(120,100%,50%)",
+		"border-right-color": "hsl(120,100%,50%)",
+		"border-bottom-color": "hsl(120,100%,50%)",
+		"border-left-color": "hsl(120,100%,50%)"
+	},
+	"inherit": {
+		"border-top-width": "inherit",
+		"border-right-width": "inherit",
+		"border-bottom-width": "inherit",
+		"border-left-width": "inherit",
+		"border-top-style": "inherit",
+		"border-right-style": "inherit",
+		"border-bottom-style": "inherit",
+		"border-left-style": "inherit",
+		"border-top-color": "inherit",
+		"border-right-color": "inherit",
+		"border-bottom-color": "inherit",
+		"border-left-color": "inherit"
+	}
+}

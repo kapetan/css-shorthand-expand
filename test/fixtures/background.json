@@ -1,0 +1,42 @@
+{
+	"scroll": {
+		"background-attachment": "scroll"
+	},
+	"content-box": {
+		"background-clip": "content-box"
+	},
+	"url( image.png )": {
+		"background-image": "url(image.png)"
+	},
+	"no-repeat repeat": {
+		"background-repeat": "no-repeat repeat"
+	},
+	"rgba(128, 64, 128, 1)": {
+		"background-color": "rgba(128,64,128,1)"
+	},
+	"left 10px": {
+		"background-position": "left 10px"
+	},
+	"10% / auto 10px": {
+		"background-position": "10%",
+		"background-size": "auto 10px"
+	},
+	"fixed padding-box url(image.png) rgb(255, 255, 0) 10px top / cover repeat-x": {
+		"background-attachment": "fixed",
+		"background-clip": "padding-box",
+		"background-image": "url(image.png)",
+		"background-repeat": "repeat-x",
+		"background-color": "rgb(255,255,0)",
+		"background-position": "10px top",
+		"background-size": "cover"
+	},
+	"inherit": {
+		"background-attachment": "inherit",
+		"background-clip": "inherit",
+		"background-image": "inherit",
+		"background-repeat": "inherit",
+		"background-color": "inherit",
+		"background-position": "inherit",
+		"background-size": "inherit"
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"16px sans-serif": {
+		"font-size": "16px",
+		"font-family": "sans-serif"
+	},
+	"16px sans-serif, \"Times New Roman\"": {
+		"font-size": "16px",
+		"font-family": "sans-serif, \"Times New Roman\""
+	},
+	"16px / 1.2 sans-serif": {
+		"font-size": "16px",
+		"line-height": "1.2",
+		"font-family": "sans-serif"
+	},
+	"bold 16px sans-serif": {
+		"font-weight": "bold",
+		"font-size": "16px",
+		"font-family": "sans-serif"
+	},
+	"italic 16px sans-serif": {
+		"font-style": "italic",
+		"font-size": "16px",
+		"font-family": "sans-serif"
+	},
+	"small-caps 16px sans-serif": {
+		"font-variant": "small-caps",
+		"font-size": "16px",
+		"font-family": "sans-serif"
+	},
+	"ultra-condensed 16px sans-serif": {
+		"font-stretch": "ultra-condensed",
+		"font-size": "16px",
+		"font-family": "sans-serif"
+	},
+	"oblique 500 small-caps semi-expanded 20% / 2em monospace, \"Times New Roman\", Helvetica": {
+		"font-size": "20%",
+		"line-height": "2em",
+		"font-style": "oblique",
+		"font-weight": "500",
+		"font-variant": "small-caps",
+		"font-stretch": "semi-expanded",
+		"font-family": "monospace, \"Times New Roman\", \"Helvetica\""
+	},
+	"inherit": {
+		"font-size": "inherit",
+		"line-height": "inherit",
+		"font-style": "inherit",
+		"font-weight": "inherit",
+		"font-variant": "inherit",
+		"font-stretch": "inherit",
+		"font-family": "inherit"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"1px": {
+		"padding-top": "1px",
+		"padding-right": "1px",
+		"padding-bottom": "1px",
+		"padding-left": "1px"
+	},
+	"1px 2px": {
+		"padding-top": "1px",
+		"padding-right": "2px",
+		"padding-bottom": "1px",
+		"padding-left": "2px"
+	},
+	"1px 2px 3px": {
+		"padding-top": "1px",
+		"padding-right": "2px",
+		"padding-bottom": "3px",
+		"padding-left": "2px"
+	},
+	"1px 2px 3px 4px": {
+		"padding-top": "1px",
+		"padding-right": "2px",
+		"padding-bottom": "3px",
+		"padding-left": "4px"
+	},
+	"inherit": {
+		"padding-top": "inherit",
+		"padding-right": "inherit",
+		"padding-bottom": "inherit",
+		"padding-left": "inherit"
+	}
+}
