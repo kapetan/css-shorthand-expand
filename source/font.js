@@ -55,7 +55,7 @@ function parse(input) {
         result['font-style'] = buffer;
       } else if (/^small-caps$/.test(buffer)) {
         result['font-variant'] = buffer;
-      } else if (/^(bold(er)?|lighter|[1-9]00)$/.test(buffer)) {
+      } else if (/^(bold(er)?|lighter|normal|[1-9]00)$/.test(buffer)) {
         result['font-weight'] = buffer;
       } else if (/^((ultra|extra|semi)-)?(condensed|expanded)$/.test(buffer)) {
         result['font-stretch'] = buffer;
