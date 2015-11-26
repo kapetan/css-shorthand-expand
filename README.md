@@ -38,3 +38,4 @@ Currently the following properties are supported.
 - border-right
 - border-bottom
 - border-left
+- outline
