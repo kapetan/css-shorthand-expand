@@ -1,0 +1,31 @@
+{
+    "1px solid #000": {
+        "outline-width": "1px",
+        "outline-style": "solid",
+        "outline-color": "#000"
+    },
+    "solid 1px #000": {
+        "outline-width": "1px",
+        "outline-style": "solid",
+        "outline-color": "#000"
+    },
+    "solid #000000 1px": {
+        "outline-width": "1px",
+        "outline-style": "solid",
+        "outline-color": "#000000"
+    },
+    "solid": {
+        "outline-style": "solid"
+    },
+    "black": {
+        "outline-color": "black"
+    },
+    "1px": {
+        "outline-width": "1px"
+    },
+    "inherit": {
+        "outline-width": "inherit",
+        "outline-style": "inherit",
+        "outline-color": "inherit"
+    }
+}

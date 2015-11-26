@@ -4,6 +4,7 @@ var font = require('./font');
 var border = require('./border');
 var background = require('./background');
 var directional = require('./directional');
+var outline = require('./outline');
 
 var prefix = function(prefix) {
 	return function(value) {
@@ -27,7 +28,8 @@ var shorthand = {
 	'border-right': border.right,
 	'border-bottom': border.bottom,
 	'border-left': border.left,
-	background: background
+	background: background,
+	outline: outline
 };
 
 module.exports = function(property, value) {
