@@ -7,6 +7,7 @@ var padding = require('./fixtures/padding');
 var background = require('./fixtures/background');
 var font = require('./fixtures/font');
 var border = require('./fixtures/border');
+var outline = require('./fixtures/outline');
 
 var testProperty = function(name, fixture) {
 	test(name, function(t) {
@@ -26,6 +27,7 @@ testProperty('padding', padding);
 testProperty('background', background);
 testProperty('font', font);
 testProperty('border', border);
+testProperty('outline', outline);
 
 test('non-shorthand property', function(t) {
 	var result = expand('color', '#00f');
