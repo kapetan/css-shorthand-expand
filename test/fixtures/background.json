@@ -1,4 +1,10 @@
 {
+	"url(/testSite/wp-content/themes/BareBones/images/bg3.png) no-repeat center center fixed": {
+    "background-image": "url(/testSite/wp-content/themes/BareBones/images/bg3.png)",
+    "background-position": "center center",
+    "background-repeat": "no-repeat",
+    "background-attachment": "fixed"
+  },
 	"scroll": {
 		"background-attachment": "scroll"
 	},
