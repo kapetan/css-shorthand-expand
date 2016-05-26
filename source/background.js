@@ -25,7 +25,7 @@ var normalizeUrl = function(value) {
 module.exports = function(value) {
 	var result = {};
 	var values = normalizeUrl(normalizeColor(value))
-		.replace(/\//, ' / ')
+    .replace(/\(.*\/.*\)|(\/)+/g, (match, group1) => (!group1) ? match : ' / ')
 		.split(/\s+/);
 
 	var first = values[0];
@@ -107,7 +107,7 @@ module.exports = function(value) {
 				}
 			}
 		} else {
-			return;
+      console.warn('Did not recognize token', v);
 		}
 	}
 
