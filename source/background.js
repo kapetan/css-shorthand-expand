@@ -106,8 +106,6 @@ module.exports = function(value) {
 					return;
 				}
 			}
-		} else {
-      console.warn('Did not recognize token', v);
 		}
 	}
 
