@@ -26,6 +26,7 @@
   "dependencies": {
     "css-color-names": "0.0.1",
     "css-url-regex": "0.0.1",
+    "gonzales": "^1.0.7",
     "hex-color-regex": "^1.0.1",
     "hsl-regex": "^1.0.0",
     "hsla-regex": "^1.0.0",

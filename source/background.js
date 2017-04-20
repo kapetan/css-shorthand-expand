@@ -3,6 +3,8 @@ var map = require('map-obj');
 var isColor = require('./is-color');
 var isLength = require('./is-length');
 var normalizeColor = require('./normalize-color');
+var splitValueOnSpace = require("./split-value-on-space");
+
 
 var ATTACHMENT = /^(fixed|local|scroll)$/;
 var BOX = /^(border-box|padding-box|content-box)$/;
@@ -24,9 +26,8 @@ var normalizeUrl = function(value) {
 
 module.exports = function(value) {
 	var result = {};
-	var values = normalizeUrl(normalizeColor(value))
-		.replace(/\//, ' / ')
-		.split(/\s+/);
+	var values = splitValueOnSpace(normalizeUrl(normalizeColor(value))
+		.replace(/\//, ' / '));
 
 	var first = values[0];
 

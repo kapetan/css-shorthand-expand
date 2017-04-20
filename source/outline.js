@@ -3,13 +3,14 @@ var extend = require('xtend');
 var isColor = require('./is-color');
 var isLength = require('./is-length');
 var normalize = require('./normalize-color');
+var splitValueOnSpace = require("./split-value-on-space");
 
 var WIDTH = /^(thin|medium|thick)$/;
 var STYLE = /^(none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset)$/i;
 var KEYWORD = /^(inherit|initial)$/i;
 
 var outline = function(value) {
-	var values = normalize(value).split(/\s+/);
+  var values = splitValueOnSpace(normalize(value));
 
 	if(values.length > 3) return;
 	if (values.length === 1 && KEYWORD.test(values[0])) {

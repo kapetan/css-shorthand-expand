@@ -1,8 +1,8 @@
 var repeat = require('repeat-element');
+var splitValueOnSpace = require("./split-value-on-space");
 
 module.exports = function(value) {
-	var values = value.split(/\s+/);
-
+  var values = splitValueOnSpace(value);
 	if(values.length === 1) values = repeat(values[0], 4);
 	else if(values.length === 2) values = values.concat(values);
 	else if(values.length === 3) values.push(values[1]);
