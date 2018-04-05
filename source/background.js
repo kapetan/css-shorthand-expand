@@ -106,6 +106,8 @@ module.exports = function(value) {
 					return;
 				}
 			}
+		} else {
+			return;
 		}
 	}
 
