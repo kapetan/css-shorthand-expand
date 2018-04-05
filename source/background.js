@@ -25,7 +25,7 @@ var normalizeUrl = function(value) {
 module.exports = function(value) {
 	var result = {};
 	var values = normalizeUrl(normalizeColor(value))
-    .replace(/\(.*\/.*\)|(\/)+/g, (match, group1) => (!group1) ? match : ' / ')
+		.replace(/\(.*\/.*\)|(\/)+/g, (match, group1) => (!group1) ? match : ' / ')
 		.split(/\s+/);
 
 	var first = values[0];
