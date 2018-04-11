@@ -1,0 +1,32 @@
+{
+	"1px": {
+		"border-top-left-radius": "1px",
+		"border-top-right-radius": "1px",
+		"border-bottom-right-radius": "1px",
+		"border-bottom-left-radius": "1px"
+	},
+	"1px 2px": {
+		"border-top-left-radius": "1px",
+		"border-top-right-radius": "2px",
+		"border-bottom-right-radius": "1px",
+		"border-bottom-left-radius": "2px"
+	},
+	"1px 2px 3px": {
+		"border-top-left-radius": "1px",
+		"border-top-right-radius": "2px",
+		"border-bottom-right-radius": "3px",
+		"border-bottom-left-radius": "2px"
+	},
+	"1px 2px 3px 4px": {
+		"border-top-left-radius": "1px",
+		"border-top-right-radius": "2px",
+		"border-bottom-right-radius": "3px",
+		"border-bottom-left-radius": "4px"
+	},
+	"inherit": {
+		"border-top-left-radius": "inherit",
+		"border-top-right-radius": "inherit",
+		"border-bottom-right-radius": "inherit",
+		"border-bottom-left-radius": "inherit"
+	}
+}

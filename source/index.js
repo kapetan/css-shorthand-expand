@@ -2,6 +2,7 @@ var map = require('map-obj');
 
 var font = require('./font');
 var border = require('./border');
+var borderRadius = require('./border-radius');
 var background = require('./background');
 var directional = require('./directional');
 var outline = require('./outline');
@@ -28,6 +29,7 @@ var shorthand = {
 	'border-right': border.right,
 	'border-bottom': border.bottom,
 	'border-left': border.left,
+	'border-radius': borderRadius,
 	background: background,
 	outline: outline
 };
