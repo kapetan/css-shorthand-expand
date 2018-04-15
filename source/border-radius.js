@@ -26,7 +26,6 @@ var borderRadius = function(value) {
 	return longhand && map(longhand, function(key, value) {
 		return [ 'border-' + key + '-radius', value];
 	});
-
 }
 
 module.exports = exports = borderRadius;

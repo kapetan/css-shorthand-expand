@@ -1,5 +1,7 @@
 # css-shorthand-expand
 
+[![Build Status](https://travis-ci.org/kapetan/css-shorthand-expand.svg?branch=master)](https://travis-ci.org/kapetan/css-shorthand-expand)
+
 Expand CSS shorthand properties to their longhand equivalent.
 
 	npm install css-shorthand-expand
@@ -38,4 +40,5 @@ Currently the following properties are supported.
 - border-right
 - border-bottom
 - border-left
+- border-radius
 - outline
